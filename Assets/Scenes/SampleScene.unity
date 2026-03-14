@@ -206,7 +206,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000035762784}
-  m_LocalPosition: {x: 21.792, y: -0.018, z: 29.734}
+  m_LocalPosition: {x: 21.968, y: -0.018, z: 29.734}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -377,6 +377,63 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1001 &457395219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
+      propertyPath: m_Name
+      value: sphere
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d19936876a6b28a4db2f36f10eff4af6, type: 3}
 --- !u!1 &459451249
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +608,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &877353629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,7 +738,7 @@ PrefabInstance:
     - target: {fileID: -8713871538899126770, guid: c159e69b9909a304cb2fc4dc881527c9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: dce13d805ab35c2479ff59dc13bccbd7, type: 2}
+      objectReference: {fileID: 2100000, guid: becca5abc689bfb4086d963dc5122cbe, type: 2}
     - target: {fileID: -8679921383154817045, guid: c159e69b9909a304cb2fc4dc881527c9, type: 3}
       propertyPath: m_LocalScale.x
       value: 6.7507043
@@ -737,7 +794,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: c159e69b9909a304cb2fc4dc881527c9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: dce13d805ab35c2479ff59dc13bccbd7, type: 2}
+      objectReference: {fileID: 2100000, guid: becca5abc689bfb4086d963dc5122cbe, type: 2}
     - target: {fileID: 919132149155446097, guid: c159e69b9909a304cb2fc4dc881527c9, type: 3}
       propertyPath: m_Name
       value: shaderball_smooth_UVs
@@ -851,3 +908,4 @@ SceneRoots:
   - {fileID: 1298051872}
   - {fileID: 808123924}
   - {fileID: 459451251}
+  - {fileID: 457395219}
