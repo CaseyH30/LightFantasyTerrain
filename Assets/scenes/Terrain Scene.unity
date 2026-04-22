@@ -849,22 +849,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnObjects:
-  - {fileID: 919132149155446097, guid: 261d360b459839b408c3e61bc5c01525, type: 3}
-  radius: 100
-  quantity: 0
-  raycastDistance: 100
+  - {fileID: 661212668793076838, guid: 5a6e3a3e817303f4bb66582d8c71d9ec, type: 3}
+  - {fileID: 919132149155446097, guid: 21a397d29f2c5294b966e5db61b05d3d, type: 3}
+  radius: 300
+  quantity: 1000
+  raycastDistance: 1000
   overlap: 1
   populationLayer:
     serializedVersion: 2
     m_Bits: 0
   terrainLayer:
     serializedVersion: 2
-    m_Bits: 0
-  orientToTerrain: 0
-  smallScale: 0.75
-  largeScale: 1.25
+    m_Bits: 1
+  orientToTerrain: 1
+  smallScale: 0.36
+  largeScale: 0.63
   seed: 0
-  heightPlacement: {x: 0, y: 0}
+  heightPlacement: {x: 0, y: 200}
 --- !u!4 &1677333369
 Transform:
   m_ObjectHideFlags: 0
