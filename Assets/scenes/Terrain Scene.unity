@@ -1175,21 +1175,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnObjects:
   - {fileID: 919132149155446097, guid: 261d360b459839b408c3e61bc5c01525, type: 3}
-  radius: 100
-  quantity: 0
-  raycastDistance: 100
-  overlap: 1
+  - {fileID: 919132149155446097, guid: 14c5c37463e81d24c84b2195715fdedf, type: 3}
+  - {fileID: 919132149155446097, guid: 5a82108c13fe34e40a55e575e70e9adc, type: 3}
+  radius: 50
+  quantity: 100
+  raycastDistance: 1000
+  overlap: 0
   populationLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   terrainLayer:
     serializedVersion: 2
-    m_Bits: 0
-  orientToTerrain: 0
+    m_Bits: 1
+  orientToTerrain: 1
   smallScale: 0.75
   largeScale: 1.25
   seed: 0
-  heightPlacement: {x: 0, y: 0}
+  heightPlacement: {x: 0, y: 200}
 --- !u!4 &1677333369
 Transform:
   m_ObjectHideFlags: 0
@@ -1199,7 +1201,7 @@ Transform:
   m_GameObject: {fileID: 1677333367}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 716.63934, y: 192.23407, z: 655.3593}
+  m_LocalPosition: {x: 716.63934, y: 192.23407, z: 677}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1363,6 +1365,67 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
+--- !u!1 &2093484543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2093484545}
+  - component: {fileID: 2093484544}
+  m_Layer: 0
+  m_Name: Spawner (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2093484544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093484543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bb74ebba472d40e0be45b29560dabc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnObjects:
+  - {fileID: 919132149155446097, guid: 261d360b459839b408c3e61bc5c01525, type: 3}
+  radius: 50
+  quantity: 100
+  raycastDistance: 1000
+  overlap: 0
+  populationLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  terrainLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  orientToTerrain: 1
+  smallScale: 0.75
+  largeScale: 1.25
+  seed: 0
+  heightPlacement: {x: 0, y: 200}
+--- !u!4 &2093484545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093484543}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 775.7, y: 205, z: 762.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6512750602011543382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1413,7 +1476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 661212668793076838, guid: 5a6e3a3e817303f4bb66582d8c71d9ec, type: 3}
       propertyPath: m_Name
-      value: grass_variation1 1
+      value: grass_medium
       objectReference: {fileID: 0}
     - target: {fileID: 1309954972687375795, guid: 5a6e3a3e817303f4bb66582d8c71d9ec, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1436,6 +1499,7 @@ SceneRoots:
   - {fileID: 219284182}
   - {fileID: 761867535}
   - {fileID: 1677333369}
+  - {fileID: 2093484545}
   - {fileID: 6512750602011543382}
   - {fileID: 1165051260}
   - {fileID: 1353865221}
