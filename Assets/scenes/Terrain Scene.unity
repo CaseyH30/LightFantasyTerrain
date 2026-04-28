@@ -1177,8 +1177,8 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: 261d360b459839b408c3e61bc5c01525, type: 3}
   - {fileID: 919132149155446097, guid: 14c5c37463e81d24c84b2195715fdedf, type: 3}
   - {fileID: 919132149155446097, guid: 5a82108c13fe34e40a55e575e70e9adc, type: 3}
-  radius: 50
-  quantity: 100
+  radius: 150
+  quantity: 300
   raycastDistance: 1000
   overlap: 0
   populationLayer:
@@ -1191,7 +1191,7 @@ MonoBehaviour:
   smallScale: 0.75
   largeScale: 1.25
   seed: 0
-  heightPlacement: {x: 0, y: 200}
+  heightPlacement: {x: 150, y: 200}
 --- !u!4 &1677333369
 Transform:
   m_ObjectHideFlags: 0
@@ -1201,7 +1201,7 @@ Transform:
   m_GameObject: {fileID: 1677333367}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 716.63934, y: 192.23407, z: 677}
+  m_LocalPosition: {x: 649, y: 192.23407, z: 582.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1400,7 +1400,7 @@ MonoBehaviour:
   - {fileID: 919132149155446097, guid: 5a82108c13fe34e40a55e575e70e9adc, type: 3}
   - {fileID: 919132149155446097, guid: 6b8c996daa755694c90120cd6d04bdc6, type: 3}
   radius: 600
-  quantity: 0
+  quantity: 4000
   raycastDistance: 1000
   overlap: 0
   populationLayer:
@@ -1413,7 +1413,7 @@ MonoBehaviour:
   smallScale: 0.75
   largeScale: 1.25
   seed: 0
-  heightPlacement: {x: 0, y: 30}
+  heightPlacement: {x: 0, y: 35}
 --- !u!4 &2093484545
 Transform:
   m_ObjectHideFlags: 0
